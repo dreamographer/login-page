@@ -8,9 +8,9 @@ body{
 }
 .header{
     width: 100%;
-    height: 80px;
+    height: 90px;
     background: linear-gradient(-179deg, #084ea8, #150f7d);
-
+    
 }
 .logo{
     width: 50%;
@@ -19,8 +19,8 @@ body{
     float: left;
 }
 #logo{
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     object-fit: fill;
     margin-left: 20px;
     margin-bottom: 10px;
@@ -28,10 +28,10 @@ body{
 .logo a{
     font-family: poppins semibold;
     color: rgb(255, 255, 255);
-    font-size: 23px;
+    font-size: 30px;
     text-decoration: none;
     margin-top: 4px;
-    margin-left: -9px;
+    margin-left: -12px;
     position: absolute;
 }
 .tab {
@@ -58,8 +58,8 @@ body{
 }
 
 #avatar{
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     object-fit: fill;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -72,29 +72,81 @@ body{
     width: 100%;
     float: left;
 }
-.login{
-    width: 50%;
+.login_side{
+    width: 60%;
     height: 100%;
     background: #ffffff;
     float: left;
 }
 .screen{
-    width: 50%;
+    width: 30%;
     height: 100%;
     background: #ffffff;
     float: left;
 }
-#gif{
+#right{
     width: 400px;
     height: 400px;
-    object-fit: scale-down ;
-    float: left;
-    margin-left:170px;
+    margin-top: 50px;
+}
+.log1{
+    position: absolute;
+    width: 364px;
+    height: 278px;
+    background:linear-gradient(158deg, #407bff, transparent);
+    margin-left: 347px;
+    margin-top: 122px;
+    border-radius: 9px;
+}
+.log{
+    position: absolute;
+    width: 364px;
+    height: 300px;
+    background: linear-gradient(-119deg, #397bffa3,#407bff,#6494ff,#6494ff);
+    margin-left: 426px;
+    margin-top: 122px;
+    border-radius: 9px;
+}
+#gif{
+    width: 749px;
+    height: 687px;
  }
+ #signin{
+    position: absolute;
+    margin-top: 123px;
+    margin-left: 347px;
+    
+
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 27px;
+    
+ }
+ .login{
+    font-family: poppins semibold;
+    color: #ffffff;
+ }
+ input{
+    width: 330px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+ }
+ input[type=reset]:hover{
+    border: 2px solid #1a73e8;
+ }
+ input[type=email]{
+    
+ }
+ td{
+    text-align: right;
+ }
+
 .footer{
     width: 100%;
     height: 10%;
-    background: #ffffff;
+    /*background: #ffffff;*/
     float: left;
 }
 .login{
