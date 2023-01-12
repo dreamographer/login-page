@@ -1,68 +1,104 @@
-.main-scr{
-    height: 600px;
-    
+body{
+    margin: 0;
 }
-p{
-    font-family: poppins;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    margin: auto;
-    text-align: justify;
-    text-justify: inter-word;
-    padding: 30px;
-    display: flex;
+.main-scr{
+    height: 570px;
+    width: 100%;
     
 }
 .header{
     width: 100%;
-    height: 20%;
-    background: rgb(25, 0, 255);
-    
+    height: 80px;
+    background: linear-gradient(-179deg, #084ea8, #150f7d);
 
 }
-body{
-    margin: 0;
-}
-.main{
-    height: 60%;
-}
-.left{
-    width: 20%;
+.logo{
+    width: 50%;
     height: 100%;
-    background: rgb(238, 255, 0);
+    padding-top: 20px;
     float: left;
-    display: flex;
+}
+#logo{
+    height: 40px;
+    width: 40px;
+    object-fit: fill;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.logo a{
+    font-family: poppins semibold;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    text-decoration: none;
+    margin-top: 4px;
+    margin-left: -9px;
+    position: absolute;
+}
+.tab {
+    width: 45%;
+    height: 100%;
+    float: left;
+    position: relative;
+    
+}
+#tb1{
+  font-family: poppins;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left: 360px;
+  margin-right: 0px;
+  
+}
+.avatar{
+    width: 5%;
+    height: 100%;
+    float: left;
+    text-align: right;
+    
+}
+
+#avatar{
+    height: 40px;
+    width: 40px;
+    object-fit: fill;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+.main{
+    height: 80%;
+    width: 100%;
+    float: left;
+}
+.login{
+    width: 50%;
+    height: 100%;
+    background: #ffffff;
+    float: left;
 }
 .screen{
-    width: 80%;
+    width: 50%;
     height: 100%;
-    background: rgb(255, 0, 0);
+    background: #ffffff;
     float: left;
-    display: flex;
-
-
 }
+#gif{
+    width: 400px;
+    height: 400px;
+    object-fit: scale-down ;
+    float: left;
+    margin-left:170px;
+ }
 .footer{
     width: 100%;
-    height: 20%;
-    background: rgb(222, 221, 228);
+    height: 10%;
+    background: #ffffff;
     float: left;
 }
-.box{
-    width: 200px;
-    height: 300px;
-    background: rgb(0, 255, 64);
-    border-radius: 20px;
-    margin-left: 60%;
-    margin-top: 5%;
-    margin-right: 10%;
-    max-width: 200px;
-    
+.login{
+    width: 50%;
 }
-@media screen and (max-height:400px) {
-    
-    .box{
-        width: 10px;
-        height: 20px;
-    }
-}
+
+
