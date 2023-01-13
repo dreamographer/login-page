@@ -9,7 +9,7 @@ body{
 .header{
     width: 100%;
     height: 90px;
-    background: linear-gradient(-179deg, #084ea8, #150f7d);
+    background: linear-gradient(-186deg, #084ea8, #150f7d,#709eff)
     
 }
 .logo{
@@ -49,6 +49,9 @@ body{
   margin-right: 0px;
   
 }
+.tab1{
+    width: 40px;
+}
 .avatar{
     width: 5%;
     height: 100%;
@@ -85,9 +88,10 @@ body{
     float: left;
 }
 #right{
-    width: 400px;
-    height: 400px;
-    margin-top: 50px;
+    width: 648px;
+    height: 715px;
+    margin-top: -20px;
+    margin-left: -114px;
 }
 .log1{
     position: absolute;
@@ -114,7 +118,7 @@ body{
  #signin{
     position: absolute;
     margin-top: 123px;
-    margin-left: 347px;
+    margin-left: 334px;
     
 
     padding-bottom: 20px;
@@ -127,7 +131,7 @@ body{
     color: #ffffff;
  }
  input{
-    width: 330px;
+    width: 300px;
     height: 50px;
     border-radius: 4px;
     border: none;
@@ -137,20 +141,61 @@ body{
     border: 2px solid #1a73e8;
  }
  input[type=email]{
-    
+    background-image: url(user.png);
+    background-size: 28px;
+    background-position: 4px 11px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    font-family:poppins;
+    text-align: center;
  }
- td{
-    text-align: right;
- }
-
-.footer{
-    width: 100%;
-    height: 10%;
-    /*background: #ffffff;*/
-    float: left;
+ 
+ input[type=password]{
+    background-image: url(lock.png);
+    background-size: 28px;
+    background-position: 5px 10px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    font-family:poppins;
+    text-align: center;
 }
-.login{
-    width: 50%;
+
+input[type=reset]{
+    box-shadow: 4px 6px 20px 2px;
+    font-family:poppins;
+    width: 240px;
+}
+input[type=reset]:active{
+    
+    transform: translatey(2px);
+}
+
+
+
+
+#footer{
+    width: 100%;
+    height: 120px;
+    background: #d1d2d896;
+    float: left;
+    margin-top: 238px;
+    text-align: center;
+}
+.socialmedia{
+    width: 30px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+#footer p{
+    font-family: poppins;
+    margin: -4px;
+    font-size: 13px;
+    opacity: .4;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
 }
 
 
